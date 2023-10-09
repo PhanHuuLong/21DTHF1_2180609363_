@@ -11,6 +11,7 @@ namespace Lab4_01
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
+        // Them dong
         [STAThread]
         static void Main()
         {
