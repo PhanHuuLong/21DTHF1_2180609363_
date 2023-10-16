@@ -16,7 +16,7 @@ namespace Lab4_01
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new OrderImformation());
+            Application.Run(new Form1());
         }
     }
 }
