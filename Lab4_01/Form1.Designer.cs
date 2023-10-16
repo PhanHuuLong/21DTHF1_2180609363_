@@ -68,39 +68,43 @@ namespace Lab4_01
             // findToolStripMenuItem
             // 
             this.findToolStripMenuItem.Name = "findToolStripMenuItem";
-            this.findToolStripMenuItem.Size = new System.Drawing.Size(198, 22);
+            this.findToolStripMenuItem.Size = new System.Drawing.Size(247, 26);
             this.findToolStripMenuItem.Text = "Exit";
             this.findToolStripMenuItem.Click += new System.EventHandler(this.findToolStripMenuItem_Click);
             // 
             // comboBoxFaculty
             // 
             this.comboBoxFaculty.FormattingEnabled = true;
-            this.comboBoxFaculty.Location = new System.Drawing.Point(105, 103);
+            this.comboBoxFaculty.Location = new System.Drawing.Point(140, 127);
+            this.comboBoxFaculty.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.comboBoxFaculty.Name = "comboBoxFaculty";
-            this.comboBoxFaculty.Size = new System.Drawing.Size(121, 21);
+            this.comboBoxFaculty.Size = new System.Drawing.Size(160, 24);
             this.comboBoxFaculty.TabIndex = 1;
             // 
             // txtAverageScore
             // 
-            this.txtAverageScore.Location = new System.Drawing.Point(105, 143);
+            this.txtAverageScore.Location = new System.Drawing.Point(140, 176);
+            this.txtAverageScore.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtAverageScore.Name = "txtAverageScore";
-            this.txtAverageScore.Size = new System.Drawing.Size(121, 20);
+            this.txtAverageScore.Size = new System.Drawing.Size(160, 22);
             this.txtAverageScore.TabIndex = 6;
             // 
             // txtName
             // 
-            this.txtName.Location = new System.Drawing.Point(105, 63);
+            this.txtName.Location = new System.Drawing.Point(140, 78);
+            this.txtName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(121, 20);
+            this.txtName.Size = new System.Drawing.Size(160, 22);
             this.txtName.TabIndex = 5;
             // 
             // labAverageScore
             // 
             this.labAverageScore.AutoSize = true;
             this.labAverageScore.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labAverageScore.Location = new System.Drawing.Point(19, 147);
+            this.labAverageScore.Location = new System.Drawing.Point(25, 181);
+            this.labAverageScore.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labAverageScore.Name = "labAverageScore";
-            this.labAverageScore.Size = new System.Drawing.Size(79, 16);
+            this.labAverageScore.Size = new System.Drawing.Size(104, 22);
             this.labAverageScore.TabIndex = 4;
             this.labAverageScore.Text = "Average Score";
             // 
@@ -108,9 +112,10 @@ namespace Lab4_01
             // 
             this.labFaculty.AutoSize = true;
             this.labFaculty.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labFaculty.Location = new System.Drawing.Point(19, 108);
+            this.labFaculty.Location = new System.Drawing.Point(25, 133);
+            this.labFaculty.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labFaculty.Name = "labFaculty";
-            this.labFaculty.Size = new System.Drawing.Size(41, 16);
+            this.labFaculty.Size = new System.Drawing.Size(55, 22);
             this.labFaculty.TabIndex = 3;
             this.labFaculty.Text = "Faculty";
             // 
@@ -118,17 +123,19 @@ namespace Lab4_01
             // 
             this.labName.AutoSize = true;
             this.labName.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labName.Location = new System.Drawing.Point(19, 67);
+            this.labName.Location = new System.Drawing.Point(25, 82);
+            this.labName.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labName.Name = "labName";
-            this.labName.Size = new System.Drawing.Size(35, 16);
+            this.labName.Size = new System.Drawing.Size(49, 22);
             this.labName.TabIndex = 2;
             this.labName.Text = "Name";
             // 
             // txtCodeStudent
             // 
-            this.txtCodeStudent.Location = new System.Drawing.Point(105, 30);
+            this.txtCodeStudent.Location = new System.Drawing.Point(140, 37);
+            this.txtCodeStudent.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtCodeStudent.Name = "txtCodeStudent";
-            this.txtCodeStudent.Size = new System.Drawing.Size(121, 20);
+            this.txtCodeStudent.Size = new System.Drawing.Size(160, 22);
             this.txtCodeStudent.TabIndex = 1;
             // 
             // toolToolStripMenuItem
@@ -138,32 +145,34 @@ namespace Lab4_01
             this.findCtrlFToolStripMenuItem,
             this.findToolStripMenuItem});
             this.toolToolStripMenuItem.Name = "toolToolStripMenuItem";
-            this.toolToolStripMenuItem.Size = new System.Drawing.Size(41, 20);
+            this.toolToolStripMenuItem.Size = new System.Drawing.Size(52, 24);
             this.toolToolStripMenuItem.Text = "Tool";
             // 
             // manegerFacultyToolStripMenuItem
             // 
             this.manegerFacultyToolStripMenuItem.Name = "manegerFacultyToolStripMenuItem";
-            this.manegerFacultyToolStripMenuItem.Size = new System.Drawing.Size(198, 22);
+            this.manegerFacultyToolStripMenuItem.Size = new System.Drawing.Size(247, 26);
             this.manegerFacultyToolStripMenuItem.Text = "Maneger Faculty        F2";
             this.manegerFacultyToolStripMenuItem.Click += new System.EventHandler(this.manegerFacultyToolStripMenuItem_Click);
             // 
             // findCtrlFToolStripMenuItem
             // 
             this.findCtrlFToolStripMenuItem.Name = "findCtrlFToolStripMenuItem";
-            this.findCtrlFToolStripMenuItem.Size = new System.Drawing.Size(198, 22);
+            this.findCtrlFToolStripMenuItem.Size = new System.Drawing.Size(247, 26);
             this.findCtrlFToolStripMenuItem.Text = "Find    Ctrl + F";
             this.findCtrlFToolStripMenuItem.Click += new System.EventHandler(this.findCtrlFToolStripMenuItem_Click);
             // 
             // menuStrip1
             // 
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(800, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(1067, 28);
             this.menuStrip1.TabIndex = 20;
             this.menuStrip1.Text = "menuStrip1";
+            this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
             // 
             // groupBox_InformationStudent
             // 
@@ -175,9 +184,11 @@ namespace Lab4_01
             this.groupBox_InformationStudent.Controls.Add(this.labName);
             this.groupBox_InformationStudent.Controls.Add(this.txtCodeStudent);
             this.groupBox_InformationStudent.Controls.Add(this.labCodeStudent);
-            this.groupBox_InformationStudent.Location = new System.Drawing.Point(17, 59);
+            this.groupBox_InformationStudent.Location = new System.Drawing.Point(23, 73);
+            this.groupBox_InformationStudent.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox_InformationStudent.Name = "groupBox_InformationStudent";
-            this.groupBox_InformationStudent.Size = new System.Drawing.Size(272, 211);
+            this.groupBox_InformationStudent.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox_InformationStudent.Size = new System.Drawing.Size(363, 260);
             this.groupBox_InformationStudent.TabIndex = 14;
             this.groupBox_InformationStudent.TabStop = false;
             this.groupBox_InformationStudent.Text = "Information Students";
@@ -186,17 +197,19 @@ namespace Lab4_01
             // 
             this.labCodeStudent.AutoSize = true;
             this.labCodeStudent.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labCodeStudent.Location = new System.Drawing.Point(19, 31);
+            this.labCodeStudent.Location = new System.Drawing.Point(25, 38);
+            this.labCodeStudent.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labCodeStudent.Name = "labCodeStudent";
-            this.labCodeStudent.Size = new System.Drawing.Size(71, 16);
+            this.labCodeStudent.Size = new System.Drawing.Size(95, 22);
             this.labCodeStudent.TabIndex = 1;
             this.labCodeStudent.Text = "Code Student";
             // 
             // butUpdate
             // 
-            this.butUpdate.Location = new System.Drawing.Point(119, 300);
+            this.butUpdate.Location = new System.Drawing.Point(159, 369);
+            this.butUpdate.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.butUpdate.Name = "butUpdate";
-            this.butUpdate.Size = new System.Drawing.Size(73, 51);
+            this.butUpdate.Size = new System.Drawing.Size(97, 63);
             this.butUpdate.TabIndex = 16;
             this.butUpdate.Text = "Update";
             this.butUpdate.UseVisualStyleBackColor = true;
@@ -204,9 +217,10 @@ namespace Lab4_01
             // 
             // butAdd
             // 
-            this.butAdd.Location = new System.Drawing.Point(17, 300);
+            this.butAdd.Location = new System.Drawing.Point(23, 369);
+            this.butAdd.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.butAdd.Name = "butAdd";
-            this.butAdd.Size = new System.Drawing.Size(75, 51);
+            this.butAdd.Size = new System.Drawing.Size(100, 63);
             this.butAdd.TabIndex = 15;
             this.butAdd.Text = "Add";
             this.butAdd.UseVisualStyleBackColor = true;
@@ -216,6 +230,7 @@ namespace Lab4_01
             // 
             this.faculty.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.faculty.HeaderText = "Faculty";
+            this.faculty.MinimumWidth = 6;
             this.faculty.Name = "faculty";
             this.faculty.ReadOnly = true;
             // 
@@ -229,10 +244,12 @@ namespace Lab4_01
             this.name,
             this.averageScore,
             this.faculty});
-            this.dgvStudents.Location = new System.Drawing.Point(316, 65);
+            this.dgvStudents.Location = new System.Drawing.Point(421, 80);
+            this.dgvStudents.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dgvStudents.Name = "dgvStudents";
             this.dgvStudents.ReadOnly = true;
-            this.dgvStudents.Size = new System.Drawing.Size(468, 204);
+            this.dgvStudents.RowHeadersWidth = 51;
+            this.dgvStudents.Size = new System.Drawing.Size(624, 251);
             this.dgvStudents.TabIndex = 18;
             this.dgvStudents.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvStudents_CellClick);
             // 
@@ -240,6 +257,7 @@ namespace Lab4_01
             // 
             this.codeStudent.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.codeStudent.HeaderText = "Code Student";
+            this.codeStudent.MinimumWidth = 6;
             this.codeStudent.Name = "codeStudent";
             this.codeStudent.ReadOnly = true;
             // 
@@ -247,6 +265,7 @@ namespace Lab4_01
             // 
             this.name.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.name.HeaderText = "Name";
+            this.name.MinimumWidth = 6;
             this.name.Name = "name";
             this.name.ReadOnly = true;
             // 
@@ -254,14 +273,16 @@ namespace Lab4_01
             // 
             this.averageScore.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.averageScore.HeaderText = "Average Score";
+            this.averageScore.MinimumWidth = 6;
             this.averageScore.Name = "averageScore";
             this.averageScore.ReadOnly = true;
             // 
             // butExit
             // 
-            this.butExit.Location = new System.Drawing.Point(703, 300);
+            this.butExit.Location = new System.Drawing.Point(937, 369);
+            this.butExit.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.butExit.Name = "butExit";
-            this.butExit.Size = new System.Drawing.Size(81, 51);
+            this.butExit.Size = new System.Drawing.Size(108, 63);
             this.butExit.TabIndex = 19;
             this.butExit.Text = "Exit";
             this.butExit.UseVisualStyleBackColor = true;
@@ -269,9 +290,10 @@ namespace Lab4_01
             // 
             // butDelete
             // 
-            this.butDelete.Location = new System.Drawing.Point(208, 300);
+            this.butDelete.Location = new System.Drawing.Point(277, 369);
+            this.butDelete.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.butDelete.Name = "butDelete";
-            this.butDelete.Size = new System.Drawing.Size(81, 51);
+            this.butDelete.Size = new System.Drawing.Size(108, 63);
             this.butDelete.TabIndex = 17;
             this.butDelete.Text = "Delete";
             this.butDelete.UseVisualStyleBackColor = true;
@@ -279,14 +301,15 @@ namespace Lab4_01
             // 
             // toolStrip1
             // 
+            this.toolStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripButton1_ManegerFaculty,
             this.toolStripLabel2_ManagerFaculty,
             this.toolStripLabel_FindByName,
             this.toolStripProgressBar1});
-            this.toolStrip1.Location = new System.Drawing.Point(0, 24);
+            this.toolStrip1.Location = new System.Drawing.Point(0, 28);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(800, 25);
+            this.toolStrip1.Size = new System.Drawing.Size(1067, 30);
             this.toolStrip1.TabIndex = 22;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -296,7 +319,7 @@ namespace Lab4_01
             this.toolStripButton1_ManegerFaculty.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton1_ManegerFaculty.Image")));
             this.toolStripButton1_ManegerFaculty.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton1_ManegerFaculty.Name = "toolStripButton1_ManegerFaculty";
-            this.toolStripButton1_ManegerFaculty.Size = new System.Drawing.Size(23, 22);
+            this.toolStripButton1_ManegerFaculty.Size = new System.Drawing.Size(29, 27);
             this.toolStripButton1_ManegerFaculty.Text = "toolStripButtonManegerFaculty";
             this.toolStripButton1_ManegerFaculty.Click += new System.EventHandler(this.toolStripButton1_ManegerFaculty_Click);
             // 
@@ -312,21 +335,22 @@ namespace Lab4_01
             // toolStripLabel_FindByName
             // 
             this.toolStripLabel_FindByName.Name = "toolStripLabel_FindByName";
-            this.toolStripLabel_FindByName.Size = new System.Drawing.Size(81, 22);
+            this.toolStripLabel_FindByName.Size = new System.Drawing.Size(101, 27);
             this.toolStripLabel_FindByName.Text = "Find By Name";
             this.toolStripLabel_FindByName.Click += new System.EventHandler(this.toolStripLabel_FindByName_Click);
             // 
             // toolStripProgressBar1
             // 
             this.toolStripProgressBar1.Name = "toolStripProgressBar1";
-            this.toolStripProgressBar1.Size = new System.Drawing.Size(100, 22);
+            this.toolStripProgressBar1.Size = new System.Drawing.Size(133, 27);
             this.toolStripProgressBar1.Click += new System.EventHandler(this.toolStripProgressBar1_Click);
             // 
             // FrmFalculty
             // 
-            this.FrmFalculty.Location = new System.Drawing.Point(327, 299);
+            this.FrmFalculty.Location = new System.Drawing.Point(436, 368);
+            this.FrmFalculty.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.FrmFalculty.Name = "FrmFalculty";
-            this.FrmFalculty.Size = new System.Drawing.Size(78, 52);
+            this.FrmFalculty.Size = new System.Drawing.Size(104, 64);
             this.FrmFalculty.TabIndex = 23;
             this.FrmFalculty.Text = "Form Falculty";
             this.FrmFalculty.UseVisualStyleBackColor = true;
@@ -334,9 +358,9 @@ namespace Lab4_01
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 361);
+            this.ClientSize = new System.Drawing.Size(1067, 444);
             this.Controls.Add(this.FrmFalculty);
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.menuStrip1);
@@ -346,6 +370,7 @@ namespace Lab4_01
             this.Controls.Add(this.dgvStudents);
             this.Controls.Add(this.butExit);
             this.Controls.Add(this.butDelete);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);

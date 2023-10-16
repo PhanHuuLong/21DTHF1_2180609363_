@@ -13,6 +13,7 @@ namespace Lab4_01
     public partial class Form1 : Form
     {
         private List<Faculty> listFaculty = new List<Faculty>();
+        //Cong da o day
         public Form1()
         {
             InitializeComponent();
@@ -230,6 +231,11 @@ namespace Lab4_01
         private void toolStripLabel_FindByName_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Please enter StudentID in text.", "Confident", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
         }
     }
 }

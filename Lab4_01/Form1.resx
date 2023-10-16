@@ -132,15 +132,6 @@
   <metadata name="averageScore.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="codeStudent.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="name.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="averageScore.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <metadata name="toolStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>677, 17</value>
   </metadata>
@@ -148,7 +139,7 @@
   <data name="toolStripButton1_ManegerFaculty.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAALAAAAC0CAYAAAA0JqZIAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAMlzSURBVHhe7P0FeF1XmuWN55vnPzPfdM1Md3V1JxV04piZ
+        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAMlzSURBVHhe7P0FeF1XmuWN55vnPzPfdM1Md3V1JxV04piZ
         mZmZmdkxx3bMzMyMki0zMzMzCCyZZDEzr2+tfe6RrmS5KolTVZ3/U0lWztXFs9/92+9e7z7nnvtJamoq
         fq9KQQISEY54BCOJ2yREITUt0TyGZIB3pCuNf+vu1NRk87okxHAbh9QUPpiUBqTwwRQ+SUpN4Daer4ni
         i6OpCIdCHAqiAqhQx3P1xnwPif9lUnJKhsxnOEmv5T6b93EojW1J5funpoXwdjifFs59jkZaWhzSUhOR
